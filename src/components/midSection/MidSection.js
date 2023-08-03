@@ -5,7 +5,7 @@ import ProductCard from './ProductCard';
 
 function MidSection() {
   const [post, setPost] = useState([]);
-  const [visibleProducts, setVisibleProducts] = useState(4);
+  const [visibleProducts, setVisibleProducts] = useState(4);  //display 4 from api
 
   useEffect(() => {
     handleData();
@@ -13,7 +13,7 @@ function MidSection() {
 
   function handleData() {
     axios
-      .get(`https://dummyjson.com/products?limit=${visibleProducts}`)
+      .get(`https://dummyjson.com/products?limit=${visibleProducts}`)   //syntx in template literals
       .then((res) => {
         console.log(res);
         setPost(res.data.products);
@@ -24,7 +24,7 @@ function MidSection() {
   }
 
   function handleShowMore() {
-    setVisibleProducts((prevVisible) => prevVisible + 4);
+    setVisibleProducts((prevVisible) => prevVisible + 4)
     console.log('clicked');
   }
 
@@ -34,7 +34,7 @@ function MidSection() {
 
       <div className={style.container}>
         {post.map((product, index) => (
-          <ProductCard key={index} product={product} />
+          <ProductCard key={index} product={product} />   //prop ,reused component
         ))}
       </div>
 

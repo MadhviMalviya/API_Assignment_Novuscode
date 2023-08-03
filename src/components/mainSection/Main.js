@@ -15,7 +15,7 @@ function Main() {
         .get('https://dummyjson.com/products')
         .then((res) => {
           console.log(res);
-          setPost(res.data.products.slice(0, 1)); 
+          setPost(res.data.products.slice(0, 1))  //will show 1 item 
         })
         .catch((err) => {
           console.log(err);
@@ -26,7 +26,7 @@ function Main() {
       <div className={style.midMain}>
         <div className={style.container}>
           {post.map((product, index) => (
-            <ProductCard key={index} product={product} />
+            <ProductCard key={index} product={product} />   //props used
           ))}
         </div>
       </div>

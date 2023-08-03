@@ -2,10 +2,10 @@
 import React from 'react';
 import style from './Mid.module.css';
 
-function ProductCard({ product }) {
+function ProductCard({ product }) {    //prop passed
   return (
     <div className={style.card}>
-      <img src={product.thumbnail} alt='img' />
+      <img src={product.thumbnail} alt='img' />  
       <h4>{product.title}</h4>
       <p>{product.description}</p>
       <h5>Category: {product.category}</h5>
