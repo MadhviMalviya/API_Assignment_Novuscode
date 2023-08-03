@@ -59,13 +59,7 @@ function Footer() {
                         <li>Motorsports</li>
                         <li>Esports</li>
                     </ul>
-                    <ul><h5>Entertainment</h5>
-                        <li>Movies</li>
-                        <li>Artist</li>
-                        <li>Television</li>
-                        <li>Influencer</li>
-                        <li>Viral</li>
-                    </ul>
+                   
                     <ul><h5>Features</h5>
                         <li>As Equals</li>
                         <li>Call to Earth</li>
@@ -79,6 +73,13 @@ function Footer() {
                         <li>Earthquake</li>
                         <li>Temperature</li>
                         <li>Health</li>
+                    </ul>
+                    <ul><h5>Entertainment</h5>
+                        <li>Movies</li>
+                        <li>Artist</li>
+                        <li>Television</li>
+                        <li>Influencer</li>
+                        <li>Viral</li>
                     </ul>
                     <ul><h5>More</h5>
                         <li>Desigh</li>
