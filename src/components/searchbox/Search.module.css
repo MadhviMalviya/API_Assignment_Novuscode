@@ -1,0 +1,46 @@
+.searchbox {
+    background-color: whitesmoke;
+    padding: 1.8em;
+    border-radius: 10px;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.searchbox h6 {
+    text-transform: uppercase;
+    text-align: left;
+    color: rgb(103, 101, 101);
+    letter-spacing: 3px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.searchbox h4 {
+    font-weight: 600;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.red {
+    color: rgb(210, 14, 14);
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 7px;
+}
+
+
+@media (max-width: 600px) {
+    .searchbox {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

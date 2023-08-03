@@ -1,0 +1,24 @@
+.Heading {
+    background-color: whitesmoke;
+    padding: 1.8em;
+    border-radius: 10px;
+    margin: 2rem;
+    font-size: smaller;
+}
+
+.Heading h4 {
+    font-weight: 600;
+}
+
+.Heading h6 {
+    text-transform: uppercase;
+    color: rgb(118, 117, 117);
+    letter-spacing: 3px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.red {
+    color: rgb(221, 13, 13);
+}
+
