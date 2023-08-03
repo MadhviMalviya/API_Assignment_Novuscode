@@ -28,7 +28,7 @@
 
 .list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     font-weight: 400;
     font-family: serif;
@@ -80,4 +80,15 @@ ul{
     border-radius: 50%;
     border: 7px solid white;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+
+@media  (max-width:600px) {
+    .icons{
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1em;
+    
+}
+
 }

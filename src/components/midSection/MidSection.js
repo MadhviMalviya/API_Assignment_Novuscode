@@ -9,14 +9,14 @@ function MidSection() {
 
   useEffect(() => {
     handleData();
-  }, []); // will run only after the first render . 
+  }, [visibleProducts]); // will run whenever the visibleProducts state changes
 
   function handleData() {
     axios
-      .get('https://dummyjson.com/products')
+      .get(`https://dummyjson.com/products?limit=${visibleProducts}`)
       .then((res) => {
         console.log(res);
-        setPost(res.data.products.slice(0, visibleProducts));
+        setPost(res.data.products);
       })
       .catch((err) => {
         console.log(err);
@@ -24,8 +24,8 @@ function MidSection() {
   }
 
   function handleShowMore() {
-    setVisibleProducts((prevVisible) => prevVisible + 4); 
-    console.log('clicked')
+    setVisibleProducts((prevVisible) => prevVisible + 4);
+    console.log('clicked');
   }
 
   return (
@@ -38,9 +38,7 @@ function MidSection() {
         ))}
       </div>
 
-    
-        <button onClick={handleShowMore}>Show More</button>
-    
+      <button onClick={handleShowMore}>Show More</button>
     </div>
   );
 }

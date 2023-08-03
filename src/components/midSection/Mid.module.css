@@ -15,7 +15,6 @@ color: rgb(227, 9, 9);
 }
 
 .card{
-    text-align: left;
     padding: 10px;
     width: 300px;
     border-radius: 5px;
@@ -30,9 +29,11 @@ img{
 
 p{
     font-weight: 200;
-    color: rgb(105, 104, 104);
+    color: rgb(102, 101, 101);
     font-family:sans-serif;
-    font-size: small;
+    font-size: medium;
+    margin-bottom: 2rem;
+    text-align: left;
 }
 
 .container h5{
@@ -53,7 +54,9 @@ button{
 
 
 
-
+.card h4{
+    margin-top: 2rem;
+}
 
 
   
