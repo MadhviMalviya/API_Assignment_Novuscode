@@ -7,7 +7,7 @@ function Navbar() {
     <>
       <div>
         <nav className="navbar navbar-expand-lg navbar-light ">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             Buletin
           </a>
           <button
@@ -25,23 +25,23 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="stories">
                   Stories <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="Creator">
                   Creator
                 </a>
               </li>
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="community">
                   Community
                 </a>
               </li>
 
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="Subscribe">
                   Subscribe
                 </a>
               </li>

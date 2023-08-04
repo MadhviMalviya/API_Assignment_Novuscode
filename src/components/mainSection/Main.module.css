@@ -9,3 +9,22 @@
   font-weight: 500;
 
 }
+
+.container{
+  background-color:whitesmoke;
+  
+}
+
+.container img{
+
+  width: 100%;
+  height: 80%;
+
+}
+
+.container h4 {
+  font-weight: bolder;
+  font-size: xx-large;
+ 
+
+} 
