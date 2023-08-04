@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+<!-- Deployment link :  https://64ccc18fbe3d0c68a90eb410--poetic-starship-527530.netlify.app/     -->
+
+
+<!-- Task:  1) create same UI as given in image
+2) Use resuable component for react 
+3) Use useeffect,usestate and props 
+4) For apis https://dummyjson.com/
+5) The first one with long description use get products by Id post from above link
+6) For bottom cards use reusable component and for data use Get all products api
+7) for title =>title, description =>description,category=>category in place of duration of read =>price 
+8) You can use either boostrap or material   -->
