@@ -70,7 +70,7 @@ ul{
 }
 .icons{
     display: flex;
-    gap: 1rem;
+    gap: 1.3rem;
     margin-top: 1em;
   
   
@@ -78,7 +78,7 @@ ul{
 
 .icons >svg{
     border-radius: 50%;
-    border: 7px solid white;
+    border: 9px solid white;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 

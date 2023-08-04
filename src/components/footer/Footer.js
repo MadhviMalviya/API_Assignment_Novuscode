@@ -14,10 +14,10 @@ function Footer() {
                     <p> Craft narratives that ignite inspiration,<br />
                         Knowledge, and entertainment.</p>
                         <div className={style.icons}> 
-                        <BsFacebook size={32} color='red' />
-                        <AiFillTwitterCircle  size={32}  color='red'/>
-                        <ImLinkedin size={32}  color='red'/>
-                        <FaInstagramSquare size={32} color='red'/> 
+                       <BsFacebook   size={40} color='red' /> 
+                        <AiFillTwitterCircle  size={40}  color='red'/>
+                        <ImLinkedin size={40}  color='red'/>
+                        <FaInstagramSquare size={40} color='red'/> 
                         </div>
 
                     <p className={style.copyright}>Copyright @2023 Buletin.</p>
